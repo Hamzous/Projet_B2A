@@ -4,17 +4,20 @@ MYTHES = [
     {
         "titre": "Le Minotaure et le Labyrinthe",
         "culture": "Grecque antique",
-        "resume": "Minos enferme le Minotaure dans le Labyrinthe. Thésée, aidé par Ariane, le vainc grâce au fil."
+        "resume": "Minos enferme le Minotaure dans le Labyrinthe. Thésée, aidé par Ariane, le vainc grâce au fil.",
+        "image": "https://www.labyrintheduthimerais.fr/wp-content/uploads/n0uW9B/2022/03/labyrinthes-vegetaux-de-france-et-dailleurs-008.jpg"
     },
     {
         "titre": "Osiris, Isis et Seth",
         "culture": "Égyptienne antique",
-        "resume": "Seth tue Osiris. Isis reconstitue son corps. Horus affronte Seth pour rétablir l’ordre."
+        "resume": "Seth tue Osiris. Isis reconstitue son corps. Horus affronte Seth pour rétablir l’ordre.",
+        "image": "https://www.histoire-amour.com/images/large/isis-osiris.jpg"
     },
     {
         "titre": "Ragnarök",
         "culture": "Nordique",
-        "resume": "Bataille finale et fin d’un cycle : destruction, puis renaissance d’un nouveau monde."
+        "resume": "Bataille finale et fin d’un cycle : destruction, puis renaissance d’un nouveau monde.",
+        "image": "https://blog.vkngjewelry.com/wp-content/uploads/2019/04/b65cebadaec7518867040544bc85eb28-768x484.jpg"
     },
 ]
 
@@ -48,8 +51,8 @@ ENTITES = {
         "type": "Entité mythologique",
         "culture": "Nordique",
         "description": "Figure associée à la sagesse et aux récits guerriers dans les traditions nordiques.",
-        "symbole": "Corbeaux, lance"
-        "image" 
+        "symbole": "Corbeaux, lance",
+        "image": "https://mythologica.fr/nordique/pic/odin3.jpg"
     },
 }
 
@@ -58,13 +61,15 @@ ARTEFACTS = [
         "nom": "Pierre de Rosette",
         "periode": "Égypte ptolémaïque",
         "lieu": "Découverte en 1799 près de Rosette (Égypte)",
-        "info": "Aide au déchiffrement des hiéroglyphes grâce à un texte trilingue."
+        "info": "Aide au déchiffrement des hiéroglyphes grâce à un texte trilingue.",
+        "image" : "https://www.egyptos.net/image/photos/Hieroglyphes/Steles/Pierre-de-Rosette/Pierre-de-Rosette.jpg"
     },
     {
         "nom": "Masque funéraire de Toutânkhamon",
         "periode": "Nouvel Empire (XVIIIe dynastie)",
         "lieu": "Tombe KV62, Vallée des Rois",
-        "info": "Objet emblématique de l’archéologie égyptienne."
+        "info": "Objet emblématique de l’archéologie égyptienne.", 
+        "image" : "https://static.actu.fr/uploads/2019/03/8548982a6953e5f39087fe9c0f80ea89.jpg"
     },
 ]
 

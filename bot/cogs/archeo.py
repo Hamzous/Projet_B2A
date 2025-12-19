@@ -21,6 +21,8 @@ class ArcheoCog(commands.Cog):
                 ("Info", a["info"], False),
             ],
         )
+        if "image" in a:
+            embed.set_image(url=a["image"])
         await interaction.response.send_message(embed=embed)
 
     @app_commands.command(name="fact", description="Affiche un fait archéo/mythologies")

@@ -9,6 +9,18 @@ class MythoCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
+    @app_commands.command(
+    name="entites",
+    description="Affiche la liste des entités mythologiques disponibles"
+)
+    async def entites(self, interaction: discord.Interaction):
+        names = sorted(ENTITES.keys())
+        content = ", ".join(names)
+
+        await interaction.response.send_message(
+            f"📜 Entités disponibles :\n{content}"
+        )
+
     @app_commands.command(name="mythe", description="Affiche un récit mythologique au hasard")
     async def mythe(self, interaction: discord.Interaction):
         m = random_myth()
@@ -44,6 +56,9 @@ class MythoCog(commands.Cog):
                 ("Symbole", e["symbole"], False),
             ],
         )
+        if "image" in e:
+            embed.set_image(url=e["image"])
+
         await interaction.response.send_message(embed=embed)
 
 async def setup(bot: commands.Bot):
