@@ -24,21 +24,24 @@ ENTITES = {
         "type": "Entité mythologique",
         "culture": "Grecque antique",
         "description": "Figure centrale des récits mythologiques grecs, souvent associée au ciel et à la foudre.",
-        "symbole": "Éclair, aigle"
+        "symbole": "Éclair, aigle",
+        "image": "https://img.freepik.com/photos-premium/illustration-du-puissant-dieu-zeus-tonnerre-dans-main-ai_564714-2353.jpg"
     },
     "minotaure": {
         "nom": "Minotaure",
         "type": "Créature mythologique",
         "culture": "Grecque antique",
         "description": "Créature mi-homme mi-taureau liée au mythe du Labyrinthe de Crète.",
-        "symbole": "Labyrinthe"
+        "symbole": "Labyrinthe",
+        "image": "https://img.freepik.com/photos-gratuite/portrait-du-minotaure-mythologique_23-2151817214.jpg"
     },
     "ra": {
         "nom": "Rê (Ra)",
         "type": "Entité mythologique",
         "culture": "Égyptienne antique",
-        "description": "Figure solaire majeure dans les récits mythologiques de l’Égypte ancienne.",
-        "symbole": "Disque solaire"
+        "description": "Figure solaire majeure dans les récits mythologiques de l'Égypte ancienne.",
+        "symbole": "Disque solaire",
+        "image": "https://1qult.wordpress.com/wp-content/uploads/2016/10/ra1.png"
     },
     "odin": {
         "nom": "Odin",
@@ -46,6 +49,7 @@ ENTITES = {
         "culture": "Nordique",
         "description": "Figure associée à la sagesse et aux récits guerriers dans les traditions nordiques.",
         "symbole": "Corbeaux, lance"
+        "image" 
     },
 }
 
