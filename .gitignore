@@ -1,0 +1,12 @@
+# Fichiers sensibles
+.env
+
+# Environnement virtuel
+myenv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Données générées
+bot/data/users.json
